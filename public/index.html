@@ -10,6 +10,8 @@
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet">
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
       It will be replaced with the URL of the `public` folder during the build.
@@ -22,6 +24,45 @@
     <title>React App</title>
   </head>
   <body>
+  
+      <div style = "display: flex; background-color: #2b98f0; height: 56px; font-size: 24px; align-items: center; box-shadow: 0px 0px 8px 0px black; color: white;">
+            <i style = "margin-left: 16px;" class="material-icons">menu</i>
+          <div style = "font-size: 21px; margin-left: 32px; margin-right: 24px; flex-grow: 2">
+            News
+          </div>
+          <div style = " margin-right: 16px; font-size:14px; text-transform: uppercase;">
+            Login
+          </div>  
+      </div> 
+      <div style = "width:344px; border:solid lightgrey; margin-left: 40px; margin-top: 40px; border-radius: 5px 5px 5px 5px;"->
+          <div style = "height:150px; background-image: url(Lizard.jpg); background-size: cover;border-radius: 5px 5px 0 0;"></div>
+          <div>
+              <h1 style = "margin-left: 8px"> Lizard </h1>
+              <p style = "margin-left: 8px">Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica</p>
+          </div>
+          <div style = "flex-direction: row; display:flex; margin-bottom: 5px;">
+              <div style = "color: #2b98f0; margin-left: 16px; margin-right: 32px; text-transform: uppercase;"> Share</div>
+              <div style = "color: #2b98f0; text-transform: uppercase;"> Learn More</div>
+          </div>
+      </div>
+
+      <div style = "display: flex; box-shadow: 4px 4px 4px 4px black; position: fixed; bottom: 0; left:0; width:100%; height: 56px;justify-content: center; align-items: center;"> 
+        <div style = "display: flex; flex-direction: column; align-items: center; margin-right: 56px;">
+          <i class="material-icons" style = "color: #2b98f0" >history</i>
+          <div style = "color: #2b98f0;">Recents</div>
+        </div>
+          
+        <div style = "display: flex;flex-direction: column; align-items: center; ">
+          <i class="material-icons" style = "color:grey">favorite</i>
+          <div style = "color:grey">Favorites</div>
+        </div>
+          
+        <div style = "display: flex; flex-direction: column; align-items: center; margin-left: 56px;">
+         <i class="material-icons" style = "color:grey">room</i>
+          <div style = "color: grey">Nearby</div>
+        </div>
+
+      </div>
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <div id="root"></div>
     <!--
@@ -36,3 +77,19 @@
     -->
   </body>
 </html>
+
+
+<div style = "height: 510px; margin: 30px">
+          <div style = "border: solid lightgrey; width: 394px; border-radius: 10px; ">
+                  <div style = "background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSc6jYeNzRai9FLGZyLl96UiR-QXGL1ZFD5KDVPH8cuAdnBZi-R); border-radius: 8px 8px 0 0; height: 194px; width:394px; background-size: cover;">
+                  </div>
+                  <div> 
+                    <h1 style = "font-size: 24px"> Lizard </h1>
+                    <p>Lizards are a widespread group of squamate reptiles, with over 6,000 species, ranging across all continents except Antarctica</p>
+                    <p style = "display: flex; justify-content: center; justify-content: flex-start; justify-content: space-around"> 
+                        <a style = "color: #2b98f0"> Share </a>
+                        <a style = "color: #2b98f0"> Learn More </a>
+                    </p> 
+                  </div>
+          </div>
+      </div>
